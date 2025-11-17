@@ -7,62 +7,84 @@
     <title>Landing Page</title>
 </head>
 <body>
-    <header>
-        <nav class="navigation-bar">
-            <ul>
-                <li><a href="#">Header Logo</a></li>
-                <li><a href="#">Header Link one</a></li>
-                <li><a href="#">Header link two</a></li>
-                <li><a href="#">Header link three</a></li>
-            </ul>
-        </nav>
-    </header>
-
     <main>
-        <div class="hero-section">
-            <h1>This website is awesome</h1>
-            <p>this website has some subtext that goes here under the main title. It's smaller font nad the color is lower contrast</p>
-            <button>Sign up</button>
-        </div>
+        <header>
+            <nav class="navigation-bar">
+                <ul>
+                    <li><a href="index.html" class="logo-img"><img src="./Image/ModCon-logo.png" width="70px" height="35px" alt="ModCon Business Logo"></a></li>
+                </ul>
+                
+                <ul class="navigation-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
 
-        <div class="hero-image">
-            <img src="" alt="ModCon Image">
-        </div>
+        <section class="hero-section">
+            <div class="hero-text">
+                <h1>ModCon Beddings &amp; Interiors</h1>
+                <p>We bring comfort and convenience to your doorstep, adorning your space to reflect your fantasy while delivering premium quality.</p>
+                <button>Sign up</button>
+            </div>
+
+            <div class="hero-image">
+                <img src="./Image/Mod-Con_Logo_name-removebg[1].png" width="300px" height="auto" alt="ModCon Image">
+            </div>
+        </section>
+        
     </main>
 
     <section>
         <div class="sub-hero-section">
-            <h2>Some random information</h2>
-            <div class="items-image">
-                <img src="" alt="Blankets">
-                this is some subtext under an illustration or image
-                <img src="" alt="Duvets">
-                <img src="" alt="Bedsheet">
-                <img src="" alt="Air freshner">
-            </div>
+            <h2>Shop Our Collection</h2>
+            <div class="items-container">
+                <div class=items-image>
+                    <img class="bedsheet" src="./Image/Bedsheet 1.jpg" width="150px" height="120px" alt="Blankets">
+                    <p>Bedsheet</p>
+                </div>
+                <div class=items-image>
+                    <img class="bedsheet" src="./Image/Bedsheet 1.jpg" width="150px" height="120px" alt="Blankets">
+                    <p>Bedsheet</p>
+                </div>
+                <div class=items-image>
+                    <img class="bedsheet" src="./Image/Bedsheet 1.jpg" width="150px" height="120px" alt="Blankets">
+                    <p>Bedsheet</p>
+                </div>
+                <div class=items-image>
+                    <img class="bedsheet" src="./Image/Bedsheet 1.jpg" width="150px" height="120px" alt="Blankets">
+                    <p>Bedsheet</p>
+                </div>
+                
+            </div> 
         </div>
 
     </section>
 
-    <section>
-        <h3>This is an aspiring quote, or a testimonial from a customer. Maybe it's just filling up space, or maybe people will actually read it. Who knows? All I know is that it looks nice</h3>
-        <p>-Thor, God of thunder</p>
-    </section>
 
-    <section>
+    <div class="testimony">
+        <div class="review-container">
+            <p class="review">“I love how their items transformed my room. The delivery was fast, and the customer service was excellent. I’ll definitely shop again.”</p>
+            <p class="author">-Prof. Sanusi</p>
+        </div>
+    </div>
+     
+    <div class="before-footer">
         <div class="call-to-action">
             <div>
                 <h4>Call to action! It's time</h4>
-                <p>Sign up for our product by clicking that buttion right over there!</p>
+                <p class="signup-details">Sign up for our product by clicking that buttion right over there!</p>
             </div>
             <div class="call-to-actio-btn">
-                <button>Sign up</button>
+                <button> <a href="https://www.instagram.com/modconinteriors/#" target="_blank">`</a>Sign up</button>
             </div>
         </div>
+    </div>
 
-        <footer>
-            <p>Copyright &copy ModCon Interiors 2025</p>
-        </footer>
+    <footer>
+        <p>Copyright &copy ModCon Interiors 2025</p>
+    </footer>
     </section>
 </body>
 </html>
